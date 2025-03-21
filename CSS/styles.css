@@ -1,0 +1,125 @@
+/* geral */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: auto 0 auto;
+}
+
+/* principal container */
+.container {
+    margin-top: 2.5rem;
+    border: 1px solid #000;
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+    background: linear-gradient(to top, #ece8e8 70%, #fff);
+    box-shadow: 1px 2px 10px 2px #000;
+    transition: 5s;
+}
+
+.container:hover {
+    background: linear-gradient(to bottom, #ece8e8 70%, #ffffff);
+
+}
+
+
+/* logo */
+
+.logo-container {
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+.logo-container img {
+    width: 150px;
+    display: flex;
+    margin-top: 25px;
+    border-bottom: 1px solid #000;
+    border-radius: 50%;
+    box-shadow: 2px 5px 2px #000;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.logo-container img:hover {
+
+    box-shadow: 2px 5px 2px #ffa600;
+
+
+}
+
+/* titulo e subtitulo */
+
+.title {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+
+
+}
+
+.title h1 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.subtitle {
+    margin-bottom: 35px;
+}
+
+.subtitle h2 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* midias sociais */
+
+.media-social {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    gap: 20px;
+    flex: 1;
+}
+
+.media-social a {
+    padding: 5px;
+}
+
+.media-social img {
+    padding: 10px;
+    width: 58px;
+    border-bottom: 1px solid #000;
+    box-shadow: 5px #000;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.media-social img:hover {
+    transform: scale(1.5);
+    border-bottom: 2px solid #fb0404;
+
+}
+
+.media-social p {
+    font-size: 10px;
+    text-align: center;
+    color: #000;
+    font-style: italic;
+    cursor: default;
+}
